@@ -1,0 +1,52 @@
+.kassi {
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+}
+.company{
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 50em;
+	width: 100%;
+	justify-content:  space-evenly;
+}
+body{
+	background: silver;
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+a{
+	text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
